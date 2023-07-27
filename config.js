@@ -1,15 +1,15 @@
 import firebase from "firebase";
 require("@firebase/firestore");
 
-var firebaseConfig = {
-  apiKey: "AIzaSyCZrG0BF6LrnRpWZjsPQxNGyMCLByo8HrM",
-  authDomain: "e-ride-549e4.firebaseapp.com",
-  projectId: "e-ride-549e4",
-  storageBucket: "e-ride-549e4.appspot.com",
-  messagingSenderId: "588298110700",
-  appId: "1:588298110700:web:34e3df331c6b1fc95047c9",
-  measurementId: "G-G3K7BWL5LH"
+const firebaseConfig = {
+  apiKey: "AIzaSyAHk0gHBfTyJigThdUMOPpmqEA5swF5uNg",
+  authDomain: "ciclista-eletronico-4.firebaseapp.com",
+  projectId: "ciclista-eletronico-4",
+  storageBucket: "ciclista-eletronico-4.appspot.com",
+  messagingSenderId: "281353467356",
+  appId: "1:281353467356:web:86fb02e2012605ab9e8b19"
 };
+
 
 firebase.initializeApp(firebaseConfig);
 
